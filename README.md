@@ -38,13 +38,17 @@ To install MySQL:
 ``` bash
 $ npm i mysql2@2.18.1
 ```
-To Start the app:
+To start the app:
 ``` bash
 $ nodemon index.js
 ```
 ☢️ [nodemon] app crashed - waiting for file changes before starting...<br/>
-When you start your server with nodemon, you might face this error.
+When you start your server with nodemon, you might face this error.<br/>
 Solution:
 ``` bash
 $ npm install --save mysql2
 ```
+
+## MySQL Database
+
+![mysql-database-image](https://user-images.githubusercontent.com/91262816/198361239-598f6464-045b-4731-94ab-a3da10409bbd.png)
