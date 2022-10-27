@@ -4,6 +4,7 @@
 
 ## Languages & Technologies
 
+- JavaScript
 - Node.js
 - Express.js
 - Ejs
@@ -13,7 +14,27 @@
 ## Deployment
 Run these commands:
 
-package.json:
+To install package.json:
 ``` bash
 $ npm init --yes
+```
+To install express:
+``` bash
+$ npm install
+```
+To install nodemon:
+``` bash
+$ npm i nodemon -g
+```
+To install Ejs (Tamplate engine):
+``` bash
+$ npm i ejs
+```
+To install Bootstrap:
+``` bash
+$ npm i bootstrap@5.2.2
+```
+To install MySQL:
+``` bash
+$ npm i mysql2@2.18.1
 ```
