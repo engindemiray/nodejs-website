@@ -52,7 +52,7 @@ $ npm install --save mysql2
 
 ![mysql-database-image](https://user-images.githubusercontent.com/91262816/198361239-598f6464-045b-4731-94ab-a3da10409bbd.png)
 
-config.js file:
+Write your MySQL password:
 ```js
 const config = {
     db: {
