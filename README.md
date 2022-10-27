@@ -12,7 +12,7 @@
 - MySQL
 
 ## Deployment
-Run these commands:
+Run these commands in Terminal:
 
 To install package.json:
 ``` bash
@@ -37,4 +37,10 @@ $ npm i bootstrap@5.2.2
 To install MySQL:
 ``` bash
 $ npm i mysql2@2.18.1
+```
+<font color="red">[nodemon] app crashed - waiting for file changes before starting...</font>
+When you start your server with nodemon, you might face this error.
+Solution:
+``` bash
+$ npm install --save mysql2
 ```
