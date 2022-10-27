@@ -7,7 +7,7 @@
 - JavaScript
 - Node.js
 - Express.js
-- Ejs
+- EJS
 - Bootstrap
 - MySQL
 
@@ -18,7 +18,7 @@ To install package.json:
 ``` bash
 $ npm init --yes
 ```
-To install express:
+To install Express:
 ``` bash
 $ npm i express@4.18.1
 ```
@@ -26,7 +26,7 @@ To install nodemon:
 ``` bash
 $ npm i nodemon -g
 ```
-To install Ejs (Tamplate engine):
+To install EJS (Tamplate Engine):
 ``` bash
 $ npm i ejs
 ```
@@ -42,7 +42,7 @@ To start the app:
 ``` bash
 $ nodemon index.js
 ```
-❗[nodemon] app crashed - waiting for file changes before starting...<br/>
+❗[nodemon] app crashed - waiting for file changes before starting...❗<br/>
 When you start your server with nodemon, you might face this error. Solution:
 ``` bash
 $ npm install --save mysql2
