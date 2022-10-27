@@ -2,7 +2,7 @@
 
 ![nodejs-website-image](https://user-images.githubusercontent.com/91262816/198351584-06a8758e-27d0-4062-855e-e3f7aac33423.png)
 
-## Languages & Technologies
+## Languages & Tools
 
 - JavaScript
 - Node.js
@@ -43,8 +43,7 @@ To start the app:
 $ nodemon index.js
 ```
 ☢️ [nodemon] app crashed - waiting for file changes before starting...<br/>
-When you start your server with nodemon, you might face this error.<br/>
-Solution:
+When you start your server with nodemon, you might face this error. Solution:
 ``` bash
 $ npm install --save mysql2
 ```
@@ -52,3 +51,17 @@ $ npm install --save mysql2
 ## MySQL Database
 
 ![mysql-database-image](https://user-images.githubusercontent.com/91262816/198361239-598f6464-045b-4731-94ab-a3da10409bbd.png)
+
+config.js file:
+```js
+const config = {
+    db: {
+        host: "localhost",
+        user: "root",
+        password: "********",
+        database: "nodedb"
+    }
+}
+
+module.exports = config;
+```
