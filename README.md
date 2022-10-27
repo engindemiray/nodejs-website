@@ -4,11 +4,11 @@
 
 ## Languages & Technologies
 
-- ##### Node.js
-- ##### Express.js
-- ##### Ejs
-- ##### Bootstrap
-- ##### MySQL
+- Node.js
+- Express.js
+- Ejs
+- Bootstrap
+- MySQL
 
 ## Deployment
 Run these commands:
