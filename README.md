@@ -11,7 +11,7 @@
 - Bootstrap
 - MySQL
 
-## Deployment
+## Installation
 Run these commands in Terminal:
 
 To install package.json:
@@ -38,7 +38,11 @@ To install MySQL:
 ``` bash
 $ npm i mysql2@2.18.1
 ```
-[nodemon] app crashed - waiting for file changes before starting...
+To Start the app:
+``` bash
+$ nodemon index.js
+```
+[nodemon] app crashed - waiting for file changes before starting...<br/>
 When you start your server with nodemon, you might face this error.
 Solution:
 ``` bash
