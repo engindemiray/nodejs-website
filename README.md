@@ -1,4 +1,4 @@
-## Web development with Node.js
+# Web Development with Node.js
 
 ![nodejs-website-image](https://user-images.githubusercontent.com/91262816/198351584-06a8758e-27d0-4062-855e-e3f7aac33423.png)
 
@@ -26,7 +26,7 @@ To install nodemon:
 ``` bash
 $ npm i nodemon -g
 ```
-To install EJS (Tamplate Engine):
+To install EJS:
 ``` bash
 $ npm i ejs
 ```
