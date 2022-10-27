@@ -12,7 +12,7 @@
 - MySQL
 
 ## Installation
-Run these commands in Terminal:
+Run these commands in Terminal
 
 To install package.json:
 ``` bash
