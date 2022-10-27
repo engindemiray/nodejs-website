@@ -8,7 +8,7 @@ connection.connect(function(err) {
         console.log(err);
     }
 
-    console.log("MySQL bağlantısı yapıldı");
+    console.log("MySQL connected successfully");
 })
 
 module.exports = connection.promise();
