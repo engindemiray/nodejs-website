@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Product Details</title>
+</head>
+<body>
+
+    <%- include("partials/nav") %>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="/images/<%= urun.imageUrl %>" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= urun.name %></h5>
+                                    <p class="card-text">Price: <%= urun.price %></p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Ipsa magni itaque eveniet dolor? Nobis a dicta architecto
+                                    rerum enim ad, eveniet, odit tempora nesciunt aliquam quod
+                                    quidem ex perspiciatis odio?</p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Ipsa magni itaque eveniet dolor? Nobis a dicta architecto
+                                    rerum enim ad, eveniet, odit tempora nesciunt aliquam quod
+                                    quidem ex perspiciatis odio?</p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Ipsa magni itaque eveniet dolor? Nobis a dicta architecto
+                                    rerum enim ad, eveniet, odit tempora nesciunt aliquam quod
+                                    quidem ex perspiciatis odio?</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
