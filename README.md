@@ -42,7 +42,7 @@ To Start the app:
 ``` bash
 $ nodemon index.js
 ```
-[nodemon] app crashed - waiting for file changes before starting...<br/>
+☢️ [nodemon] app crashed - waiting for file changes before starting...<br/>
 When you start your server with nodemon, you might face this error.
 Solution:
 ``` bash
