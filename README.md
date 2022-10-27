@@ -38,7 +38,7 @@ To install MySQL:
 ``` bash
 $ npm i mysql2@2.18.1
 ```
-<font color="red">[nodemon] app crashed - waiting for file changes before starting...</font>
+[nodemon] app crashed - waiting for file changes before starting...
 When you start your server with nodemon, you might face this error.
 Solution:
 ``` bash
