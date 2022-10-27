@@ -20,7 +20,7 @@ $ npm init --yes
 ```
 To install express:
 ``` bash
-$ npm install
+$ npm i express@4.18.1
 ```
 To install nodemon:
 ``` bash
