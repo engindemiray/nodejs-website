@@ -52,8 +52,8 @@ const config = {
 module.exports = config;
 ```
 ```js
-var mysql      = require('mysql');
-var connection = mysql.createConnection({
+const mysql      = require('mysql');
+const connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'me',
   password : 'secret',
