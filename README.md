@@ -25,7 +25,7 @@ Install MySQL2 with this command:
 ``` bash
 $ npm install --save mysql2
 ```
-Install nodemon with this command:
+To install nodemon it globally:
 ``` bash
 $ npm i nodemon -g
 ```
