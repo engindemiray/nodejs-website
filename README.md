@@ -2,7 +2,7 @@
 
 ![nodejs-website-image](https://user-images.githubusercontent.com/91262816/198351584-06a8758e-27d0-4062-855e-e3f7aac33423.png)
 
-## Languages & Tools
+## Tech Stack
 
 - JavaScript
 - Node.js
@@ -12,40 +12,26 @@
 - MySQL
 
 ## Installation
-Run these commands in Terminal
 
-To install package.json:
+Creating a package.json file:
 ``` bash
-$ npm init --yes
+$ npm init --y
 ```
-To install Express:
+Install Express, EJS and Bootstrap with this command:
 ``` bash
-$ npm i express@4.18.1
+$ npm i express ejs bootstrap
 ```
-To install nodemon:
+Install MySQL2 with this command:
+``` bash
+$ npm install --save mysql2
+```
+Install nodemon with this command:
 ``` bash
 $ npm i nodemon -g
 ```
-To install EJS:
-``` bash
-$ npm i ejs
-```
-To install Bootstrap:
-``` bash
-$ npm i bootstrap@5.2.2
-```
-To install MySQL:
-``` bash
-$ npm i mysql2@2.18.1
-```
-To start the app:
+Run the app with this command:
 ``` bash
 $ nodemon index.js
-```
-❗[nodemon] app crashed - waiting for file changes before starting...❗<br/>
-When you start your server with nodemon, you might face this error. Solution:
-``` bash
-$ npm install --save mysql2
 ```
 
 ## MySQL Database
