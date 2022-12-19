@@ -13,26 +13,19 @@
 
 ## Installation
 
-Creating a package.json file:
+Install npm packages:
 ``` bash
-$ npm init --y
-```
-Install Express, EJS and Bootstrap with this command:
-``` bash
-$ npm i express ejs bootstrap
+$ npm install
 ```
 Install MySQL2 with this command:
 ``` bash
 $ npm install --save mysql2
 ```
-To install nodemon it globally:
-``` bash
-$ npm i nodemon -g
-```
 Run the app with this command:
 ``` bash
 $ nodemon index.js
 ```
+You may visit the application on browser with the URL: http://localhost:3000
 
 ## MySQL Database
 
