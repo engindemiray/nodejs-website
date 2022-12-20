@@ -17,10 +17,6 @@ Install npm packages:
 ``` bash
 $ npm install
 ```
-Install MySQL2 with this command:
-``` bash
-$ npm install --save mysql2
-```
 Run the app with this command:
 ``` bash
 $ nodemon index.js
@@ -31,7 +27,8 @@ You may visit the application on browser with the URL: http://localhost:3000
 
 ![mysql-database-image](https://user-images.githubusercontent.com/91262816/198361239-598f6464-045b-4731-94ab-a3da10409bbd.png)
 
-Type your MySQL password:
+config.js file: <br/>
+Type your MySQL password.
 ```js
 const config = {
     db: {
